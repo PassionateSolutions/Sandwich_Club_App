@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class JsonUtils {
 
-    public static Sandwich parseSandwichJson(String json, Context context) {
+    public static Sandwich parseSandwichJson(String json) {
 
         Sandwich parsedSandwichData = new Sandwich();
 
