@@ -75,10 +75,10 @@ public class DetailActivity extends AppCompatActivity {
         }
 
         List<String> other_names = sandwich.getAlsoKnownAs();
-        akaView.setText((CharSequence) other_names);
+        akaView.setText(other_names.toString());
 
         List<String> allIngredients = sandwich.getIngredients();
-        ingredients.setText((CharSequence) allIngredients);
+        ingredients.setText(allIngredients.toString());
 
 
     }

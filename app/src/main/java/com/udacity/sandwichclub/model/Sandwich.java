@@ -21,10 +21,10 @@ public class Sandwich {
      * @param description
      * @param image
      */
-    public Sandwich(String mainName, ArrayList<String> altNamesList, ArrayList<String> ingredientsList, String placeOfOrign, String description, String image) {
+    public Sandwich() {
     }
 
-    public Sandwich() {
+    public Sandwich(String mainName, ArrayList<String> alsoKnownAs, ArrayList<String> ingredients, String placeOfOrigin, String description, String image) {
         this.mainName = mainName;
         this.alsoKnownAs = alsoKnownAs;
         this.placeOfOrigin = placeOfOrigin;
